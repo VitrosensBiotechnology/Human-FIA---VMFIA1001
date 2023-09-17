@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="700.0dip" android:layout_height="420.0dip">
+        <TextView android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:gravity="center" android:background="@color/mlOrange" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/shengji" />
+        <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff323232" android:gravity="center" android:id="@id/tvMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Upgradeing" android:layout_centerInParent="true" />
+        <ProgressBar android:id="@id/progressBar" android:layout_width="500.0dip" android:layout_height="30.0dip" android:layout_marginTop="10.0dip" android:max="100" android:layout_below="@id/tvMessage" android:layout_centerInParent="true" style="?android:progressBarStyleHorizontal" />
+        <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnSure" android:background="@drawable/layout_shape_button" android:layout_width="162.0dip" android:layout_height="55.0dip" android:layout_marginBottom="25.0dip" android:text="@string/application_sure" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: poctVetfor_signed.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- jpg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '19'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  pom.xml: '8'
+  okhttp3/internal/publicsuffix/NOTICE: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '0'
+  org/apache/log4j/lf5/config/defaultconfig.properties: '8'
+  org/apache/log4j/lf5/viewer/images/lf5_small_icon.gif: '0'
+  org/apache/log4j/lf5/viewer/images/channelexplorer_new.gif: '0'
+  org/apache/log4j/lf5/viewer/images/channelexplorer_satellite.gif: '0'
+  org/apache/log4j/xml/log4j.dtd: '8'
+  org/achartengine/image/zoom_in.png: '0'
+  org/achartengine/image/zoom_out.png: '0'
+  org/achartengine/image/zoom-1.png: '0'
+  resources/ca/uhn/hl7v2/hapi-version.properties: '8'
+  resources/ca/uhn/hl7v2/conf/parser/message_profile.xsd: '8'
+  resources/ca/uhn/hl7v2/conf/parser/message_profile.dtd: '8'
+  resources/ca/uhn/hl7v2/protocol/impl/charset_map.properties: '8'
+  ca/uhn/hl7v2/hapi-version.properties: '0'
+  ca/uhn/hl7v2/parser/eventmap/2.4.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.5.0
+versionInfo:
+  versionCode: '31'
+  versionName: V1.0.2.1.1

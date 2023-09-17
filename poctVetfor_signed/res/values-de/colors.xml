@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="baseTextCorlor">#ff4a5165</color>
+    <color name="baseTextCorlorPress">#ff2073e2</color>
+    <color name="colorAccent">#ffff4081</color>
+    <color name="colorPrimary">#ff3f51b5</color>
+    <color name="colorPrimaryDark">#ff303f9f</color>
+    <color name="selectRow">#ffffe4b5</color>
+    <color name="silver">#ffc0c0c0</color>
+    <color name="textCorlorGray">#ff505050</color>
+    <color name="text_bg">#ffffebcd</color>
+    <color name="text_orange">#ffff7f00</color>
+    <color name="text_xy">#fff08080</color>
+    <color name="white">#ffffffff</color>
+</resources>

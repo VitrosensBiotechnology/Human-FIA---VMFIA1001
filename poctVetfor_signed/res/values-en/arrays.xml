@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="AllSampleTypes">
+        <item>Surowica/Osocze</item>
+        <item>Krew pelna</item>
+        <item>Mocz</item>
+        <item>Kal</item>
+        <item>QC</item>
+        <item>Krew obwodowa</item>
+        <item>Wlosy na glowie</item>
+        <item>Wlosy na nogach</item>
+        <item>Wlosy w pachach</item>
+        <item>Sekrecje</item>
+        <item>Wlosy</item>
+        <item>Ziarna</item>
+        <item>Pasza i surowce</item>
+        <item>Zboże i olej</item>
+        <item>Pszenica i mąka</item>
+        <item>Mleko surowe</item>
+        <item>Produkty mleczarskie</item>
+        <item>Jogurt</item>
+        <item>Delikatesy</item>
+        <item>Organizacja</item>
+        <item>Produkty wodne</item>
+        <item>Zwierzęta gospodarskie</item>
+        <item>Warzywa i owoce</item>
+        <item>Chińska medycyna ziolowa</item>
+        <item>Jakosć wody</item>
+        <item>Produkty sojowe</item>
+        <item>Wymaz</item>
+        <item>UTM/VTM</item>
+        <item>Tytoń</item>
+        <item>Wymaz z jamy nosowo-gardlowej</item>
+        <item>UTM/VTM</item>
+        <item>Saliva</item>
+        <item>Inne</item>
+        <item>Sputum</item>
+        <item>Surowica</item>
+        <item>Woda odpadowa</item>
+        <item>Osocze</item>
+        <item>Wymaz z nosa</item>
+        <item>Wymaz z jamy ustno-gardlowej</item>
+    </string-array>
+    <string-array name="SampleTypeEasy11">
+        <item>Wymaz z nosa</item>
+        <item>Wymaz z jamy nosowo-gardlowej</item>
+        <item>Wymaz z jamy ustno-gardlowej</item>
+        <item>Krew pelna</item>
+        <item>QC</item>
+    </string-array>
+    <string-array name="SampleTypeHome">
+        <item>Surowica</item>
+        <item>Osocze</item>
+        <item>Krew pelna</item>
+        <item>Wymaz z jamy ustno-gardlowej</item>
+        <item>QC</item>
+    </string-array>
+    <string-array name="SampleTypeNcov">
+        <item>Wymaz z jamy ustno-gardlowej</item>
+        <item>UTM/VTM</item>
+        <item>Surowica/Osocze</item>
+        <item>Krew pelna</item>
+        <item>QC</item>
+    </string-array>
+    <string-array name="SampleTypePublic">
+        <item>Surowica/Osocze</item>
+        <item>Krew pelna</item>
+        <item>Mocz</item>
+        <item>Kal</item>
+        <item>QC</item>
+    </string-array>
+    <string-array name="djSampleType">
+        <item>Wlosy</item>
+        <item>Pierzenie podudzi</item>
+        <item>Wlosy pachowe</item>
+        <item>Inne</item>
+    </string-array>
+    <string-array name="gender">
+        <item>-</item>
+        <item>mężczyzna</item>
+        <item>kobieta</item>
+    </string-array>
+    <string-array name="status">
+        <item>Normalny</item>
+        <item>Nienormalny</item>
+    </string-array>
+</resources>

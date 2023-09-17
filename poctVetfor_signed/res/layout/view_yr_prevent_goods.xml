@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="520.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/base_test_size_tittle" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:background="@color/mlOrange" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/preventGoodsSetting" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginTop="50.0dip" android:baselineAligned="false">
+        <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_gravity="center" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/LisSwitch" />
+        <RadioGroup android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/rgSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip">
+            <RadioButton android:textSize="@dimen/base_test_size" android:textColor="#ff505050" android:gravity="center_vertical" android:id="@id/rbOn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:text="@string/on" android:drawableLeft="@drawable/account_account_condiftion_radiobutton" />
+            <RadioButton android:textSize="@dimen/base_test_size" android:textColor="#ff505050" android:gravity="center" android:id="@id/rbOff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:checked="true" android:button="@null" android:text="@string/off" android:drawableLeft="@drawable/account_account_condiftion_radiobutton" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginTop="40.0dip" android:baselineAligned="false">
+        <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/guestCode" />
+        <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/etCode" android:background="@drawable/inputbox_normal" android:layout_width="365.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:hint="@string/hintNum" android:maxLength="3" android:digits="\ 0123456789" android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" android:layout_marginBottom="20.0dip">
+        <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/btnSure" android:background="@drawable/common_button" android:layout_width="170.0dip" android:layout_height="60.0dip" android:text="@string/yes" />
+        <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnCancel" android:background="@drawable/common_button" android:layout_width="170.0dip" android:layout_height="60.0dip" android:layout_marginLeft="50.0dip" android:text="@string/no" />
+    </LinearLayout>
+</LinearLayout>

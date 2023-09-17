@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/submenu_bg" android:layout_width="fill_parent" android:layout_height="51.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip">
+        <RadioGroup android:orientation="horizontal" android:id="@id/rgAccountMode" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="1.0dip" android:layout_centerInParent="true">
+            <RadioButton android:textSize="20.0sp" android:textColor="@drawable/account_color_radiobutton" android:gravity="center" android:id="@id/rbTestAccount" android:background="@drawable/account_mode_radiobutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:text="@string/testing_account" />
+            <RadioButton android:textSize="20.0sp" android:textColor="@drawable/account_color_radiobutton" android:gravity="center" android:id="@id/rbWorkLoadAccount" android:background="@drawable/account_mode_radiobutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:button="@null" android:text="@string/workload_account" />
+        </RadioGroup>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/llTestAccount" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@drawable/statistical_bg1_1" android:layout_width="fill_parent" android:layout_height="148.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip">
+            <Button android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/btnTestAccount" android:background="@drawable/home_button" android:layout_width="70.0dip" android:layout_height="32.0dip" android:layout_marginRight="40.0dip" android:text="@string/account" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/llTop" android:layout_width="fill_parent" android:layout_height="74.0dip" android:layout_marginRight="40.0dip" android:layout_toLeftOf="@id/btnTestAccount">
+                <TextView android:textSize="16.0sp" android:textColor="#ff323232" android:layout_gravity="center_vertical" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="5.0dip" android:text="@string/account_condition" />
+                <RadioGroup android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/rgAccountCondition" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip">
+                    <RadioButton android:textSize="16.0sp" android:textColor="#ff505050" android:gravity="center_vertical" android:id="@id/rbAccountForItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:text="@string/account_by_item" android:drawableLeft="@drawable/account_account_condiftion_radiobutton" />
+                    <RadioButton android:textSize="16.0sp" android:textColor="#ff505050" android:gravity="center" android:id="@id/rbAccountForSample" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:button="@null" android:text="@string/account_by_sample" android:drawableLeft="@drawable/account_account_condiftion_radiobutton" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/llBottom" android:layout_width="fill_parent" android:layout_height="74.0dip" android:layout_marginRight="40.0dip" android:layout_marginBottom="1.0dip" android:layout_toLeftOf="@id/btnTestAccount" android:layout_below="@id/llTop">
+                <TextView android:textSize="16.0sp" android:textColor="#ff323232" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="12.0dip" android:text="@string/application_time" />
+                <RelativeLayout android:layout_width="170.0dip" android:layout_height="32.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip">
+                    <TextView android:textSize="16.0sp" android:textColor="#ff323232" android:gravity="center" android:id="@id/tvTimeFrom" android:background="@drawable/inputbox_normal" android:layout_width="170.0dip" android:layout_height="fill_parent" />
+                    <Button android:id="@id/btnFrom" android:background="@drawable/drop_down" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <TextView android:textSize="16.0sp" android:textColor="#ff323232" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:text="--" />
+                <RelativeLayout android:layout_width="170.0dip" android:layout_height="32.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip">
+                    <TextView android:textSize="16.0sp" android:textColor="#ff323232" android:gravity="center" android:id="@id/tvTimeTo" android:background="@drawable/inputbox_normal" android:layout_width="170.0dip" android:layout_height="fill_parent" />
+                    <Button android:id="@id/btnTo" android:background="@drawable/drop_down" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:background="@drawable/statistical_bg1_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#ff323232" android:layout_gravity="center_vertical" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:text="@string/statistical_result" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llPage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="70.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btnPrevious" android:background="@drawable/history_prev_page_button" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+                <TextView android:textSize="20.0sp" android:textColor="#ff323232" android:gravity="center" android:id="@id/tvPage" android:layout_width="80.0dip" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:text="1/1" />
+                <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btnNext" android:background="@drawable/history_next_page_button" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="10.0dip" />
+            </LinearLayout>
+            <TableLayout android:id="@id/testTableLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TableRow android:background="#ffd6dfe9" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0sp" android:textColor="#ff505050" android:gravity="center" android:id="@id/tvTestAccountMode" android:background="#fff3f5f9" android:layout_width="150.0dip" android:layout_height="40.0dip" android:layout_margin="1.0dip" android:text="@string/item" />
+                    <TextView android:textSize="16.0sp" android:textColor="#ff505050" android:gravity="center" android:background="#fff3f5f9" android:layout_width="150.0dip" android:layout_height="40.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" android:text="@string/count" />
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/llWorkLoadAccount" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@drawable/statistical_bg1_1" android:layout_width="fill_parent" android:layout_height="148.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip">
+            <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btnWorkLoadAccount" android:background="@drawable/home_button" android:layout_width="70.0dip" android:layout_height="32.0dip" android:layout_marginRight="20.0dip" android:text="@string/account" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/llTop2" android:layout_width="fill_parent" android:layout_height="88.0dip" android:layout_marginRight="20.0dip" android:layout_toLeftOf="@id/btnWorkLoadAccount">
+                <TextView android:textSize="16.0sp" android:textColor="#ff323232" android:layout_gravity="center_vertical" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="-3.0dip" android:text="@string/account_condition" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip">
+                        <CheckBox android:textSize="14.0sp" android:textColor="#ff133447" android:layout_gravity="center_vertical" android:id="@id/cbSubmittingDoctor" android:background="@drawable/history_select_checkbox" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="10.0dip" android:button="@null" />
+                        <TextView android:textSize="@dimen/history_detial_info" android:textColor="#ff505050" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/submitting_doctor" />
+                        <AutoCompleteTextView android:textSize="14.0sp" android:textColor="#ff505050" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/actvSubmittingDoctor" android:background="@drawable/inputbox_normal" android:layout_width="110.0dip" android:layout_height="32.0dip" android:layout_marginLeft="5.0dip" android:lines="1" />
+                        <CheckBox android:textSize="14.0sp" android:textColor="#ff133447" android:layout_gravity="center_vertical" android:id="@id/cbSubmittingDivision" android:background="@drawable/history_select_checkbox" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="20.0dip" android:button="@null" />
+                        <TextView android:textSize="@dimen/history_detial_info" android:textColor="#ff505050" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/submitting_division" />
+                        <AutoCompleteTextView android:textSize="14.0sp" android:textColor="#ff505050" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/actvSubmittingDivision" android:background="@drawable/inputbox_normal" android:layout_width="110.0dip" android:layout_height="32.0dip" android:layout_marginLeft="5.0dip" android:lines="1" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip">
+                        <CheckBox android:textSize="14.0sp" android:textColor="#ff133447" android:layout_gravity="center_vertical" android:id="@id/cbInspectingDoctor" android:background="@drawable/history_select_checkbox" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="10.0dip" android:button="@null" />
+                        <TextView android:textSize="@dimen/history_detial_info" android:textColor="#ff505050" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tvInspectingDoctor" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/inspecting_doctor" />
+                        <AutoCompleteTextView android:textSize="14.0sp" android:textColor="#ff505050" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/actvInspectingDoctor" android:background="@drawable/inputbox_normal" android:layout_width="110.0dip" android:layout_height="32.0dip" android:layout_marginLeft="5.0dip" android:lines="1" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/llBottom2" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="1.0dip" android:layout_toLeftOf="@id/btnWorkLoadAccount" android:layout_below="@id/llTop2">
+                <TextView android:textSize="16.0sp" android:textColor="#ff323232" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="-3.0dip" android:text="@string/application_time" />
+                <RelativeLayout android:layout_width="170.0dip" android:layout_height="32.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip">
+                    <TextView android:textSize="16.0sp" android:textColor="#ff323232" android:gravity="center" android:id="@id/tvTimeFrom2" android:background="@drawable/inputbox_normal" android:layout_width="170.0dip" android:layout_height="fill_parent" />
+                    <Button android:id="@id/btnFrom2" android:background="@drawable/drop_down" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <TextView android:textSize="16.0sp" android:textColor="#ff323232" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="2.0dip" android:text="--" />
+                <RelativeLayout android:layout_width="170.0dip" android:layout_height="32.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="2.0dip">
+                    <TextView android:textSize="16.0sp" android:textColor="#ff323232" android:gravity="center" android:id="@id/tvTimeTo2" android:background="@drawable/inputbox_normal" android:layout_width="170.0dip" android:layout_height="fill_parent" />
+                    <Button android:id="@id/btnTo2" android:background="@drawable/drop_down" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:background="@drawable/statistical_bg1_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#ff323232" android:layout_gravity="center_vertical" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:text="@string/statistical_result" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llPage2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btnPrevious2" android:background="@drawable/history_prev_page_button" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+                <TextView android:textSize="20.0sp" android:textColor="#ff323232" android:gravity="center" android:id="@id/tvPage2" android:layout_width="80.0dip" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:text="1/1" />
+                <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btnNext2" android:background="@drawable/history_next_page_button" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="10.0dip" />
+            </LinearLayout>
+            <TableLayout android:id="@id/workloadTableLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TableRow android:background="#ffd6dfe9" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/home_detial_info_dialog" android:textColor="#ff505050" android:gravity="center" android:background="#fff3f5f9" android:layout_width="119.0dip" android:layout_height="40.0dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:text="@string/submitting_doctor" />
+                    <TextView android:textSize="@dimen/home_detial_info_dialog" android:textColor="#ff505050" android:gravity="center" android:background="#fff3f5f9" android:layout_width="119.0dip" android:layout_height="40.0dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:text="@string/submitting_division" />
+                    <TextView android:textSize="@dimen/home_detial_info_dialog" android:textColor="#ff505050" android:gravity="center" android:background="#fff3f5f9" android:layout_width="119.0dip" android:layout_height="40.0dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:text="@string/inspecting_doctor" />
+                    <TextView android:textSize="@dimen/home_detial_info_dialog" android:textColor="#ff505050" android:gravity="center" android:background="#fff3f5f9" android:layout_width="80.0dip" android:layout_height="40.0dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="1.0dip" android:text="@string/count" />
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

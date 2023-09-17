@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="50" android:drawable="@drawable/process_1" />
+    <item android:duration="50" android:drawable="@drawable/process_2" />
+    <item android:duration="50" android:drawable="@drawable/process_3" />
+    <item android:duration="50" android:drawable="@drawable/process_4" />
+    <item android:duration="50" android:drawable="@drawable/process_5" />
+    <item android:duration="50" android:drawable="@drawable/process_6" />
+    <item android:duration="50" android:drawable="@drawable/process_7" />
+    <item android:duration="50" android:drawable="@drawable/process_8" />
+    <item android:duration="50" android:drawable="@drawable/process_9" />
+    <item android:duration="50" android:drawable="@drawable/process_10" />
+    <item android:duration="50" android:drawable="@drawable/process_11" />
+    <item android:duration="50" android:drawable="@drawable/process_12" />
+</animation-list>

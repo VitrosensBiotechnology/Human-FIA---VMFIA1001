@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="966.0dip" android:layout_height="580.0dip">
+        <TextView android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:gravity="center" android:background="@color/mlOrange" android:layout_width="150.0dip" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:text="@string/query" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="70.0dip">
+                <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff323232" android:gravity="center|right" android:layout_width="250.0dip" android:layout_height="fill_parent" android:text="@string/patientnumber" android:layout_centerInParent="true" />
+                <AutoCompleteTextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/actvPatientNo" android:background="@drawable/inputbox_normal" android:layout_width="440.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="70.0dip" android:layout_marginTop="30.0dip">
+                <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff323232" android:gravity="center|right" android:layout_width="250.0dip" android:layout_height="fill_parent" android:text="@string/inspecting_doctor" android:layout_centerInParent="true" />
+                <AutoCompleteTextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/actOperator" android:background="@drawable/inputbox_normal" android:layout_width="440.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="70.0dip" android:layout_marginTop="30.0dip">
+                <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff323232" android:gravity="center|right" android:layout_width="250.0dip" android:layout_height="fill_parent" android:text="@string/samplenumber" android:layout_centerInParent="true" />
+                <AutoCompleteTextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/actvSampleNumber" android:background="@drawable/inputbox_normal" android:layout_width="170.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" />
+                <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff323232" android:gravity="center|right" android:layout_width="90.0dip" android:layout_height="fill_parent" android:text="@string/name" android:layout_centerInParent="true" />
+                <AutoCompleteTextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/actvName" android:background="@drawable/inputbox_normal" android:layout_width="170.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="70.0dip" android:layout_marginTop="30.0dip">
+                <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff323232" android:gravity="center|right" android:layout_width="250.0dip" android:layout_height="fill_parent" android:text="@string/application_date" android:layout_centerInParent="true" />
+                <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvTimeFrom" android:background="@drawable/inputbox_normal" android:layout_width="170.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" />
+                <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff323232" android:gravity="center" android:layout_width="80.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="--" android:layout_centerInParent="true" />
+                <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvTimeTo" android:background="@drawable/inputbox_normal" android:layout_width="170.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="65.0dip" android:layout_marginBottom="25.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnClear" android:background="@drawable/common_button" android:layout_width="180.0dip" android:layout_height="65.0dip" android:text="@string/sg_clear" android:layout_centerInParent="true" />
+            <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnSure" android:background="@drawable/common_button" android:layout_width="180.0dip" android:layout_height="65.0dip" android:layout_marginLeft="20.0dip" android:text="@string/application_sure" />
+            <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnCancel" android:background="@drawable/common_button" android:layout_width="180.0dip" android:layout_height="65.0dip" android:layout_marginLeft="20.0dip" android:text="@string/cancel" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

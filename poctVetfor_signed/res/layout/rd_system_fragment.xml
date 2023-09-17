@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/statistical_bg1_2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/base_test_size_tittle" android:textColor="#ff323232" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="35.0dip" android:text="@string/rd" />
+    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/llCurves" android:layout_width="800.0dip" android:layout_height="450.0dip" android:layout_marginTop="20.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/silver" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip">
+        <TextView android:textSize="@dimen/base_test_size_small" android:textColor="#ff474747" android:gravity="center_horizontal" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/rdtest" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size_small" android:textColor="#ff474747" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/delay" />
+            <EditText android:textSize="@dimen/base_test_size_small" android:textColor="#ff474747" android:gravity="center" android:id="@id/etDelayTime" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:inputType="number" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size_small" android:textColor="#ff474747" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/total" />
+            <EditText android:textSize="@dimen/base_test_size_small" android:textColor="#ff474747" android:gravity="center" android:id="@id/etTotalTime" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="6000" android:inputType="number" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size_small" android:textColor="#ff474747" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/testCount" />
+            <TextView android:textSize="@dimen/base_test_size_small" android:textColor="#ff474747" android:id="@id/tvTestTimes" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <Button android:textSize="@dimen/base_test_size_small" android:textColor="@color/white" android:id="@id/btnStart" android:background="@drawable/selfinspection_button" android:layout_width="178.0dip" android:layout_height="65.0dip" android:layout_marginLeft="15.0dip" android:text="@string/startold" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/silver" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip">
+        <TextView android:textSize="@dimen/base_test_size_small" android:textColor="#ff474747" android:gravity="center_horizontal" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/other" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rgMacTypeVersion" android:background="@color/white" android:paddingLeft="30.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="40.0dip">
+                <RadioButton android:enabled="false" android:textSize="@dimen/base_test_size" android:id="@id/rbFSType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:text="荧光版本" android:drawableLeft="@drawable/account_account_condiftion_radiobutton" />
+                <RadioButton android:enabled="false" android:textSize="@dimen/base_test_size" android:id="@id/rbDJType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:button="@null" android:text="毛发版本" android:drawableLeft="@drawable/account_account_condiftion_radiobutton" />
+            </RadioGroup>
+            <CheckBox android:textSize="@dimen/base_test_size_tittle" android:textColor="#ff656369" android:id="@id/cbAutoPrint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="55.0dip" android:text="@string/print_automatically" />
+            <TextView android:textSize="@dimen/base_test_size_small" android:textColor="#ffff0000" android:id="@id/tvStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="55.0dip" android:text="SN:" />
+            <EditText android:textSize="@dimen/base_test_size" android:id="@id/etSN" android:background="@drawable/inputbox_normal" android:layout_width="300.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" />
+            <Button android:textSize="@dimen/base_test_size_small" android:textColor="@color/white" android:id="@id/btnSave" android:background="@drawable/selfinspection_button" android:layout_width="178.0dip" android:layout_height="65.0dip" android:layout_marginLeft="30.0dip" android:text="@string/save" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

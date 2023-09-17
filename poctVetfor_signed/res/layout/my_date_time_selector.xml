@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="810.0dip" android:layout_height="520.0dip">
+        <TextView android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:gravity="center" android:id="@id/tvTimeSetting" android:background="@color/mlOrange" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/selectDate" />
+        <TableLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="40.0dip" android:layout_above="@id/llBottom" android:layout_below="@id/tvTimeSetting">
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff505050" android:gravity="center" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="@string/year" android:layout_weight="1.5" />
+                <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff505050" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="@string/month" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff505050" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="@string/dayR" android:layout_weight="1.0" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8" />
+                <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff505050" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/hour" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff505050" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="@string/minute" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff505050" android:gravity="center" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="@string/second" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <Button android:textSize="@dimen/date_size" android:textColor="@color/mlOrange" android:gravity="center" android:id="@id/btnAddYear" android:background="@drawable/home_date_button" android:layout_width="0.0dip" android:layout_height="60.0dip" android:text="@string/addChar" android:layout_weight="1.5" />
+                <Button android:textSize="@dimen/date_size" android:textColor="@color/mlOrange" android:gravity="center" android:id="@id/btnAddMonth" android:background="@drawable/home_date_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="@string/addChar" android:layout_weight="1.0" />
+                <Button android:textSize="@dimen/date_size" android:textColor="@color/mlOrange" android:gravity="center" android:id="@id/btnAddDay" android:background="@drawable/home_date_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="@string/addChar" android:layout_weight="1.0" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8" />
+                <Button android:textSize="@dimen/date_size" android:textColor="@color/mlOrange" android:gravity="center" android:id="@id/btnAddHour" android:background="@drawable/home_date_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/addChar" android:layout_weight="1.0" />
+                <Button android:textSize="@dimen/date_size" android:textColor="@color/mlOrange" android:gravity="center" android:id="@id/btnAddMinute" android:background="@drawable/home_date_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="@string/addChar" android:layout_weight="1.0" />
+                <Button android:textSize="@dimen/date_size" android:textColor="@color/mlOrange" android:gravity="center" android:id="@id/btnAddSec" android:background="@drawable/home_date_button" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="@string/addChar" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="1.5">
+                    <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etAddYear" android:background="@drawable/home_date_content_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inputType="number" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="20.0dip" android:layout_weight="1.0">
+                    <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etAddMonth" android:background="@drawable/home_date_content_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inputType="number" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="20.0dip" android:layout_weight="1.0">
+                    <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etAddDay" android:background="@drawable/home_date_content_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inputType="number" />
+                </RelativeLayout>
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8" />
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="1.0">
+                    <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etAddHour" android:background="@drawable/home_date_content_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inputType="number" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="20.0dip" android:layout_weight="1.0">
+                    <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etAddMinute" android:background="@drawable/home_date_content_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inputType="number" />
+                </RelativeLayout>
+                <RelativeLayout android:visibility="gone" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="20.0dip" android:layout_weight="1.0">
+                    <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etAddSec" android:background="@drawable/home_date_content_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inputType="number" />
+                </RelativeLayout>
+            </TableRow>
+            <TableRow android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_marginTop="15.0dip">
+                <Button android:textSize="@dimen/date_size" android:textColor="@color/mlOrange" android:gravity="center" android:id="@id/btnSubYear" android:background="@drawable/home_date_button" android:layout_width="0.0dip" android:layout_height="60.0dip" android:text="@string/subChar" android:layout_weight="1.5" />
+                <Button android:textSize="@dimen/date_size" android:textColor="@color/mlOrange" android:gravity="center" android:id="@id/btnSubMonth" android:background="@drawable/home_date_button" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="20.0dip" android:text="@string/subChar" android:layout_weight="1.0" />
+                <Button android:textSize="@dimen/date_size" android:textColor="@color/mlOrange" android:gravity="center" android:id="@id/btnSubDay" android:background="@drawable/home_date_button" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="20.0dip" android:text="@string/subChar" android:layout_weight="1.0" />
+                <View android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="0.8" />
+                <Button android:textSize="@dimen/date_size" android:textColor="@color/mlOrange" android:gravity="center" android:id="@id/btnSubHour" android:background="@drawable/home_date_button" android:layout_width="0.0dip" android:layout_height="60.0dip" android:text="@string/subChar" android:layout_weight="1.0" />
+                <Button android:textSize="@dimen/date_size" android:textColor="@color/mlOrange" android:gravity="center" android:id="@id/btnSubMinute" android:background="@drawable/home_date_button" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="20.0dip" android:text="@string/subChar" android:layout_weight="1.0" />
+                <Button android:textSize="@dimen/date_size" android:textColor="@color/mlOrange" android:gravity="center" android:id="@id/btnSubSec" android:background="@drawable/home_date_button" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="20.0dip" android:text="@string/subChar" android:layout_weight="1.0" />
+            </TableRow>
+        </TableLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/llBottom" android:layout_width="wrap_content" android:layout_height="75.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <Button android:textSize="@dimen/base_test_size_tittle" android:textColor="@color/white" android:id="@id/btnSure" android:background="@drawable/common_button" android:layout_width="180.0dip" android:layout_height="70.0dip" android:text="@string/application_sure" />
+            <Button android:textSize="@dimen/base_test_size_tittle" android:textColor="@color/white" android:id="@id/btnCancel" android:background="@drawable/common_button" android:layout_width="180.0dip" android:layout_height="70.0dip" android:layout_marginLeft="50.0dip" android:text="@string/cancel" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

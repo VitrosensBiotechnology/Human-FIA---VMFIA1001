@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/submenu_bg" android:layout_width="fill_parent" android:layout_height="91.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="5.0dip">
+        <RadioGroup android:orientation="horizontal" android:id="@id/rgQC" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+            <RadioButton android:textSize="@dimen/base_test_size_tab" android:textColor="@drawable/account_color_radiobutton" android:gravity="center" android:id="@id/rbQCTest" android:background="@drawable/account_mode_radiobutton" android:layout_width="wrap_content" android:layout_height="fill_parent" android:button="@null" android:text="@string/qctest" />
+            <RadioButton android:textSize="@dimen/base_test_size_tab" android:textColor="@drawable/account_color_radiobutton" android:gravity="center" android:id="@id/rbQCData" android:background="@drawable/account_mode_radiobutton" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:button="@null" android:text="@string/qcdata" />
+            <RadioButton android:textSize="@dimen/base_test_size_tab" android:textColor="@drawable/account_color_radiobutton" android:gravity="center" android:id="@id/rbQCLJ" android:background="@drawable/account_mode_radiobutton" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:button="@null" android:text="@string/ljfigure" />
+        </RadioGroup>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/contentLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" />
+</LinearLayout>

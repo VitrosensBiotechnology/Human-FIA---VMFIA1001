@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/statistical_bg1_2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/base_test_size_tittle" android:textColor="#ff323232" android:id="@id/tvUserSetting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="35.0dip" android:text="@string/user_setting" />
+    <LinearLayout android:orientation="vertical" android:layout_width="600.0dip" android:layout_height="500.0dip" android:layout_marginTop="25.0dip" android:layout_below="@id/tvUserSetting" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="#ffd1dde7" android:layout_width="fill_parent" android:layout_height="65.0dip" android:weightSum="9.0">
+            <RelativeLayout android:gravity="center" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_weight="2.0">
+                <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff323232" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" />
+            </RelativeLayout>
+            <View android:background="@color/silver" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" />
+            <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.5">
+                <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff323232" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/user_name" />
+            </RelativeLayout>
+            <View android:background="@color/silver" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" />
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.5">
+                <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff323232" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/password" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TableLayout android:id="@id/tlUserTable" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="70.0dip" android:layout_marginBottom="50.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnAddUser" android:background="@drawable/common_button" android:layout_width="178.0dip" android:layout_height="65.0dip" android:text="@string/add" />
+        <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnModifyUser" android:background="@drawable/common_button" android:layout_width="178.0dip" android:layout_height="65.0dip" android:layout_marginLeft="30.0dip" android:text="@string/edit" />
+        <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnDeleteUser" android:background="@drawable/common_button" android:layout_width="178.0dip" android:layout_height="65.0dip" android:layout_marginLeft="30.0dip" android:text="@string/delete" />
+        <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnClear" android:background="@drawable/common_button" android:layout_width="178.0dip" android:layout_height="65.0dip" android:layout_marginLeft="30.0dip" android:text="@string/clear" />
+        <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnLogout" android:background="@drawable/common_button" android:layout_width="178.0dip" android:layout_height="65.0dip" android:layout_marginLeft="30.0dip" android:text="@string/logout" />
+    </LinearLayout>
+</RelativeLayout>

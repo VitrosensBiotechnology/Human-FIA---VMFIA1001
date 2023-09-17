@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/statistical_bg1_2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/barCode" />
+            <Spinner android:textSize="@dimen/base_test_size_small" android:gravity="center" android:id="@id/spBarCode" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/batchNum" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvBatchNum" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/title" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/itemName" />
+            <Spinner android:textSize="@dimen/base_test_size_small" android:gravity="center" android:id="@id/spItemName" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/IDCard" />
+            <Spinner android:gravity="center" android:id="@id/spIDCard" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apexInterval" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvApexInterval" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/qualitativeFlag" />
+            <Spinner android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/spQualitativeFlag" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/toCalcApex" />
+            <Spinner android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/spToCalcApex" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/isAddSample" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvIsAddSample" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/addSampleName" />
+            <TextView android:textSize="@dimen/base_test_size" android:id="@id/tvAddSampleName" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/addSample" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvAddSample" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/hatchTime" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvHatchTime" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/isRushTop" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvIsRushTop" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rushTopName" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvRushTopName" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/RushTop" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvRushTop" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/lastTime" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvLastTime" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="30.0dip">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="30.0sp" android:textColor="@color/mlOrange" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/itemInfo" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/projectName" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvProjectName" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unitShow" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvUnit" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/decimalDigits" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvDecimalDigits" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TCtype" />
+            <Spinner android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/spTCType" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/multiProjectMolecule" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvMultiProjectMolecule" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/multiProjectDenominator" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvMultiProjectDenominator" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/l_count" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvl_Count" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AlgorithmType" />
+            <Spinner android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/spAlgorithmType" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="40.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/multiFitCondition" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/islog" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvIslog" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dimension" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvDimension" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/divisionIndex" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvDivisionIndex" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/limitation" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvLimitation" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/otherAlgorithm" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/x_log" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvLogX" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/y_log" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvLogY" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sampleNo" />
+            <Spinner android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/spSampleNo" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sampleType" />
+            <Spinner android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/spSampleType" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/isCoefficientSeg" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvIsCoefficientSeg" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unCoefficientSeg" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvUnCoefficientSeg" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/segmentInterval" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvSegmentInterval" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coefficientSub" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvCoefficientSub" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/density" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvDensity" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tcValue" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvValue_tc" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/testBound1" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center|left" android:id="@id/tvTestBound1" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/testBound2" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvTestBound2" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/secondName" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvSecondName" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qualitativeTest" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thresholdValue" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvThresholdValue" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thresholdValueResultLow" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvThresholdValueResuleLow" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thresholdValueResultHight" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvThresholdValueResuleHight" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qualitativeTestInterval" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center|left" android:id="@id/tvQualitativeTestInterval" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qualitativeTestConclusion" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/tvQualitativeTestConclusion" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

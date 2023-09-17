@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="AllSampleTypes">
+        <item>Sérum/Plasma</item>
+        <item>Sang total</item>
+        <item>Urine</item>
+        <item>Excrément</item>
+        <item>CQ</item>
+        <item>Peripheral Blood</item>
+        <item>Cheveu</item>
+        <item>Jambe Cheveux</item>
+        <item>Poils des aisselles</item>
+        <item>Secretions</item>
+        <item>Cheveu</item>
+        <item>Grains</item>
+        <item>Feed And Raw Materials</item>
+        <item>Grain And Oil</item>
+        <item>Wheat And Flour</item>
+        <item>Raw Milk</item>
+        <item>Dairy Products</item>
+        <item>Yogurt</item>
+        <item>Delicatessen</item>
+        <item>Organization</item>
+        <item>Aquatic Products</item>
+        <item>Livestock</item>
+        <item>Fruits And Vegetables</item>
+        <item>Chinese Herbal Medicine</item>
+        <item>Water Quality</item>
+        <item>Soy Products</item>
+        <item>Vegetable Oil</item>
+        <item>Honey</item>
+        <item>Tobacco</item>
+        <item>écouvillonnage nasopharyngé</item>
+        <item>UTM/VTM</item>
+        <item>Saliva</item>
+        <item>Autre</item>
+        <item>Sputum</item>
+        <item>Sérum</item>
+        <item>Waste Water</item>
+        <item>Plasma</item>
+        <item>Nose Swab</item>
+        <item>Oropharyngeal Swab</item>
+    </string-array>
+    <string-array name="SampleTypeEasy11">
+        <item>Nose Swab</item>
+        <item>Nasopharyngeal Swab</item>
+        <item>Oropharyngeal Swab</item>
+        <item>Whole Blood</item>
+        <item>QC</item>
+    </string-array>
+    <string-array name="SampleTypeHome">
+        <item>Sérum</item>
+        <item>Plasma</item>
+        <item>Sang total</item>
+        <item>écouvillonnage nasopharyngé</item>
+        <item>CQ</item>
+    </string-array>
+    <string-array name="SampleTypeNcov">
+        <item>écouvillonnage nasopharyngé</item>
+        <item>UTM/VTM</item>
+        <item>Sérum/Plasma</item>
+        <item>Sang total</item>
+        <item>CQ</item>
+    </string-array>
+    <string-array name="SampleTypePublic">
+        <item>Sérum/Plasma</item>
+        <item>Sang total</item>
+        <item>Urine</item>
+        <item>Excrément</item>
+        <item>CQ</item>
+    </string-array>
+    <string-array name="djSampleType">
+        <item>Cheveu</item>
+        <item>Jambe Cheveux</item>
+        <item>Poils des aisselles</item>
+        <item>Autre</item>
+        <item>CQ</item>
+    </string-array>
+    <string-array name="gender">
+        <item>-</item>
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+    <string-array name="status">
+        <item>Normal</item>
+        <item>Anormal</item>
+    </string-array>
+</resources>

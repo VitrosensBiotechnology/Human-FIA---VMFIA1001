@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/base_test_size_tittle" android:textColor="@color/white" android:gravity="center" android:background="@color/mlOrange" android:layout_width="150.0dip" android:layout_height="60.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:text="@string/unitChange" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip">
+        <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8" />
+        <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/unit" android:layout_weight="0.8" />
+        <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/formula" android:layout_weight="1.6" />
+        <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/template" android:layout_weight="0.6" />
+        <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/printMode" android:layout_weight="0.6" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/originalUnit" android:layout_weight="0.8" />
+        <EditText android:enabled="false" android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etOriUnit" android:background="@drawable/inputbox_normal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8" android:inputType="text" />
+        <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="y = kx + b" android:layout_weight="1.6" />
+        <EditText android:enabled="false" android:textSize="@dimen/base_test_size" android:gravity="center" android:background="@drawable/inputbox_normal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6" android:inputType="text" />
+        <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6">
+            <CheckBox android:enabled="false" android:textSize="24.0sp" android:textColor="#ff133447" android:id="@id/cbSelectOrUnit" android:background="@drawable/history_select_checkbox" android:layout_width="50.0dip" android:layout_height="50.0dip" android:checked="true" android:button="@null" android:layout_centerInParent="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip">
+        <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/targetUnit1" android:layout_weight="0.8" />
+        <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etTarUnit1" android:background="@drawable/inputbox_normal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8" android:inputType="text" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.6">
+            <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etK1" android:background="@drawable/inputbox_normal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:maxLength="10" android:layout_weight="1.0" android:inputType="numberDecimal|numberSigned" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="x + " />
+            <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etB1" android:background="@drawable/inputbox_normal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="5.0dip" android:maxLength="10" android:layout_weight="1.0" android:inputType="numberDecimal|numberSigned" />
+        </LinearLayout>
+        <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etTarTemp1" android:background="@drawable/inputbox_normal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6" />
+        <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6">
+            <CheckBox android:textSize="24.0sp" android:textColor="#ff133447" android:id="@id/cbSelectUnit1" android:background="@drawable/history_select_checkbox" android:layout_width="50.0dip" android:layout_height="50.0dip" android:button="@null" android:layout_centerInParent="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip">
+        <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/targetUnit2" android:layout_weight="0.8" />
+        <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etTarUnit2" android:background="@drawable/inputbox_normal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8" android:inputType="text" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.6">
+            <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etK2" android:background="@drawable/inputbox_normal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:maxLength="10" android:layout_weight="1.0" android:inputType="numberDecimal|numberSigned" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="x + " />
+            <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etB2" android:background="@drawable/inputbox_normal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="5.0dip" android:maxLength="10" android:layout_weight="1.0" android:inputType="numberDecimal|numberSigned" />
+        </LinearLayout>
+        <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etTarTemp2" android:background="@drawable/inputbox_normal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6" />
+        <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6">
+            <CheckBox android:textSize="24.0sp" android:textColor="#ff133447" android:id="@id/cbSelectUnit2" android:background="@drawable/history_select_checkbox" android:layout_width="50.0dip" android:layout_height="50.0dip" android:button="@null" android:layout_centerInParent="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip">
+        <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="TargetUnit3" android:layout_weight="1.0" />
+        <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:background="@drawable/inputbox_normal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="mg/ml" android:layout_weight="0.8" android:inputType="text" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.2">
+            <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etK3" android:background="@drawable/inputbox_normal" android:layout_width="80.0dip" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" android:text="1" android:maxLength="10" android:inputType="numberDecimal|numberSigned" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="X + " />
+            <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etB3" android:background="@drawable/inputbox_normal" android:layout_width="80.0dip" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" android:text="0" android:maxLength="10" android:inputType="numberDecimal|numberSigned" />
+        </LinearLayout>
+        <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:background="@drawable/inputbox_normal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="" android:layout_weight="0.8" />
+        <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6">
+            <CheckBox android:textSize="24.0sp" android:textColor="#ff133447" android:id="@id/cbSelectUnit3" android:background="@drawable/history_select_checkbox" android:layout_width="50.0dip" android:layout_height="50.0dip" android:button="@null" android:layout_centerInParent="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="10.0dip">
+        <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnSure" android:background="@drawable/common_button" android:layout_width="180.0dip" android:layout_height="70.0dip" android:text="@string/application_sure" />
+        <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnCancel" android:background="@drawable/common_button" android:layout_width="180.0dip" android:layout_height="70.0dip" android:layout_marginLeft="35.0dip" android:text="@string/cancel" />
+    </LinearLayout>
+</LinearLayout>

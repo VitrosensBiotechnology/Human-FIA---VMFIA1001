@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="AllSampleTypes">
+        <item>Serum/Plasma</item>
+        <item>Sangre pura</item>
+        <item>Urine</item>
+        <item>Feces</item>
+        <item>QC</item>
+        <item>Peripheral Blood</item>
+        <item>Cabello</item>
+        <item>Pelo de la pierna</item>
+        <item>Vello axilar</item>
+        <item>Secreción</item>
+        <item>Cabello</item>
+        <item>Grains</item>
+        <item>Feed And Raw Materials</item>
+        <item>Grain And Oil</item>
+        <item>Wheat And Flour</item>
+        <item>Raw Milk</item>
+        <item>Dairy Products</item>
+        <item>Yogurt</item>
+        <item>Delicatessen</item>
+        <item>Organization</item>
+        <item>Aquatic Products</item>
+        <item>Livestock</item>
+        <item>Fruits And Vegetables</item>
+        <item>Chinese Herbal Medicine</item>
+        <item>Water Quality</item>
+        <item>Soy Products</item>
+        <item>Vegetable Oil</item>
+        <item>Honey</item>
+        <item>Tobacco</item>
+        <item>Hisopo nasofaríngeo</item>
+        <item>UTM/VTM</item>
+        <item>Saliva</item>
+        <item>Otro</item>
+        <item>Esputo</item>
+        <item>Suero</item>
+        <item>Waste Water</item>
+        <item>Plasma</item>
+        <item>Nose Swab</item>
+        <item>Oropharyngeal Swab</item>
+    </string-array>
+    <string-array name="SampleTypeEasy11">
+        <item>Nose Swab</item>
+        <item>Nasopharyngeal Swab</item>
+        <item>Oropharyngeal Swab</item>
+        <item>Whole Blood</item>
+        <item>QC</item>
+    </string-array>
+    <string-array name="SampleTypeHome">
+        <item>Suero</item>
+        <item>Plasma</item>
+        <item>Sangre pura</item>
+        <item>Hisopo nasofaríngeo</item>
+        <item>QC</item>
+    </string-array>
+    <string-array name="SampleTypeNcov">
+        <item>Hisopo nasofaríngeo</item>
+        <item>UTM/VTM</item>
+        <item>Suero/Plasma</item>
+        <item>Sangre pura</item>
+        <item>QC</item>
+    </string-array>
+    <string-array name="SampleTypePublic">
+        <item>Serum/Plasma</item>
+        <item>Sangre pura</item>
+        <item>Urine</item>
+        <item>Feces</item>
+        <item>QC</item>
+    </string-array>
+    <string-array name="djSampleType">
+        <item>Cabello</item>
+        <item>Pelo de la pierna</item>
+        <item>Vello axilar</item>
+        <item>Otro</item>
+        <item>QC</item>
+    </string-array>
+    <string-array name="gender">
+        <item>-</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+</resources>

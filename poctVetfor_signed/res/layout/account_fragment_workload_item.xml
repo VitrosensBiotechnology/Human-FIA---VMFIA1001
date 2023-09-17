@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow android:background="#ffd6dfe9" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ff505050" android:gravity="center" android:id="@id/tvSubmittingDoctor" android:background="#ffffffff" android:layout_width="119.0dip" android:layout_height="40.0dip" android:layout_marginLeft="1.0dip" android:layout_marginBottom="1.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff505050" android:gravity="center" android:id="@id/tvSubmittingDivision" android:background="#ffffffff" android:layout_width="119.0dip" android:layout_height="40.0dip" android:layout_marginLeft="1.0dip" android:layout_marginBottom="1.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff505050" android:gravity="center" android:id="@id/tvInspectingDoctor" android:background="#ffffffff" android:layout_width="119.0dip" android:layout_height="40.0dip" android:layout_marginLeft="1.0dip" android:layout_marginBottom="1.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff505050" android:gravity="center" android:id="@id/tvWorkLoadCount" android:background="#ffffffff" android:layout_width="80.0dip" android:layout_height="40.0dip" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" />
+</TableRow>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow android:background="#ffd6dfe9" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#ff505050" android:gravity="center" android:id="@id/tvItem" android:background="#ffffffff" android:layout_width="150.0dip" android:layout_height="40.0dip" android:layout_marginLeft="1.0dip" android:layout_marginBottom="1.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff505050" android:gravity="center" android:id="@id/tvCount" android:background="#ffffffff" android:layout_width="150.0dip" android:layout_height="40.0dip" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" />
+</TableRow>

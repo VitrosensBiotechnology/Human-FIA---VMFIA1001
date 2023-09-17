@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="700.0dip" android:layout_height="420.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:gravity="center" android:background="@color/mlOrange" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/add" />
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip">
+                <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff323232" android:gravity="center" android:layout_width="220.0dip" android:layout_height="80.0dip" android:text="@string/user_name" />
+                <EditText android:textSize="@dimen/base_test_size" android:textColor="#ff323232" android:gravity="center" android:id="@id/etUserName" android:background="@drawable/inputbox_normal" android:layout_width="300.0dip" android:layout_height="80.0dip" android:layout_marginLeft="15.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip">
+                <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff323232" android:gravity="center" android:layout_width="220.0dip" android:layout_height="wrap_content" android:text="@string/password" android:layout_centerInParent="true" />
+                <EditText android:textSize="@dimen/base_test_size" android:textColor="#ff323232" android:gravity="center" android:id="@id/etPassword" android:background="@drawable/inputbox_normal" android:layout_width="300.0dip" android:layout_height="70.0dip" android:layout_marginLeft="15.0dip" android:hint="@string/pwdformat" android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnSure" android:background="@drawable/layout_shape_button" android:layout_width="180.0dip" android:layout_height="70.0dip" android:text="@string/application_sure" />
+            <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnCancel" android:background="@drawable/common_button" android:layout_width="180.0dip" android:layout_height="70.0dip" android:layout_marginLeft="80.0dip" android:text="@string/cancel" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

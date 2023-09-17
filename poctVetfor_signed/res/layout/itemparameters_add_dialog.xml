@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="800.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/base_test_size_tittle" android:textColor="@color/white" android:gravity="center" android:background="@color/mlOrange" android:layout_width="150.0dip" android:layout_height="60.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:text="@string/add" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="25.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center|left" android:layout_width="175.0dip" android:layout_height="fill_parent" android:text="@string/item" />
+            <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etItem" android:background="@drawable/inputbox_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:inputType="text" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="175.0dip" android:text="@string/item_number" />
+            <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etCode" android:background="@drawable/inputbox_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center|left" android:layout_width="175.0dip" android:layout_height="fill_parent" android:text="@string/reference_range" />
+            <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etRangeMin" android:background="@drawable/inputbox_normal" android:layout_width="120.0dip" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" android:hint="@string/min" android:inputType="numberDecimal" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="-" />
+            <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etRangeMax" android:background="@drawable/inputbox_normal" android:layout_width="120.0dip" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" android:hint="@string/max" android:inputType="numberDecimal" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/reviseLayout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center|left" android:layout_width="178.0dip" android:layout_height="fill_parent" android:text="@string/checkFormula" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="y = " />
+            <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etK" android:background="@drawable/inputbox_normal" android:layout_width="150.0dip" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" android:text="" android:maxLength="10" android:inputType="numberDecimal|numberSigned" />
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="x + " />
+            <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etB" android:background="@drawable/inputbox_normal" android:layout_width="150.0dip" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" android:text="" android:maxLength="10" android:inputType="numberDecimal|numberSigned" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip">
+            <TextView android:textSize="@dimen/base_test_size" android:gravity="center|left" android:layout_width="175.0dip" android:layout_height="fill_parent" android:text="@string/unit" />
+            <EditText android:textSize="@dimen/base_test_size" android:gravity="center" android:id="@id/etUnit" android:background="@drawable/inputbox_normal" android:layout_width="180.0dip" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" />
+            <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnUnit" android:background="@drawable/common_button" android:visibility="gone" android:layout_width="180.0dip" android:layout_height="60.0dip" android:layout_marginLeft="20.0dip" android:text="@string/unitChange" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="10.0dip">
+            <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnSure" android:background="@drawable/common_button" android:layout_width="180.0dip" android:layout_height="70.0dip" android:text="@string/application_sure" />
+            <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnCancel" android:background="@drawable/common_button" android:layout_width="180.0dip" android:layout_height="70.0dip" android:layout_marginLeft="35.0dip" android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

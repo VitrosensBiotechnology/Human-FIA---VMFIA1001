@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="base_test_size">24.0sp</dimen>
+    <dimen name="history_detial_info">24.0sp</dimen>
+    <dimen name="home_detial_info_dialog">23.0sp</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="966.0dip" android:layout_height="510.0dip">
+        <TextView android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:gravity="center" android:background="@color/mlOrange" android:layout_width="150.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/delete_sample" />
+        <TextView android:textSize="@dimen/base_test_size" android:textColor="#ff323232" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sureTodeleteselect" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="75.0dip" android:layout_marginBottom="35.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnSure" android:background="@drawable/common_button" android:layout_width="180.0dip" android:layout_height="70.0dip" android:text="@string/application_sure" />
+            <Button android:textSize="@dimen/base_test_size" android:textColor="@color/white" android:id="@id/btnCancel" android:background="@drawable/common_button" android:layout_width="180.0dip" android:layout_height="70.0dip" android:layout_marginLeft="40.0dip" android:text="@string/cancel" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

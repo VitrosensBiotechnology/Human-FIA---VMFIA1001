@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow android:background="#ffd6dfe9" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ffffffff" android:layout_width="53.0dip" android:layout_height="60.0dip" android:layout_marginLeft="1.0dip" android:layout_marginBottom="1.0dip">
+        <CheckBox android:textSize="14.0sp" android:textColor="#ff133447" android:id="@id/cbSelect" android:background="@drawable/history_select_checkbox" android:layout_width="36.0dip" android:layout_height="36.0dip" android:button="@null" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginBottom="1.0dip" android:layout_weight="1.2">
+        <TextView android:textSize="@dimen/base_test_size_small" android:textColor="#ff133447" android:gravity="center" android:id="@id/tvSerialNumber" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginBottom="1.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/base_test_size_small" android:textColor="#ff133447" android:gravity="center" android:id="@id/tvQCItem" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginBottom="1.0dip" android:layout_weight="1.1">
+        <TextView android:textSize="@dimen/base_test_size_small" android:textColor="#ff133447" android:gravity="center" android:id="@id/tvQCBatchNo" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginBottom="1.0dip" android:layout_weight="0.8">
+        <TextView android:textSize="@dimen/base_test_size_small" android:textColor="#ff133447" android:gravity="center" android:id="@id/tvLevel" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginBottom="1.0dip" android:layout_weight="0.9">
+        <TextView android:textSize="@dimen/base_test_size_small" android:textColor="#ff133447" android:gravity="center" android:id="@id/tvResult" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginBottom="1.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/base_test_size_small" android:textColor="#ff133447" android:gravity="center" android:id="@id/tvTargetValue" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip" android:layout_marginBottom="1.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/base_test_size_small" android:textColor="#ff133447" android:gravity="center" android:id="@id/tvTestTime" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</TableRow>
